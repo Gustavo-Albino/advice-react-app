@@ -1,0 +1,27 @@
+.advice-div {
+    background-color: rgb(53, 80, 235);
+    width: 30%;
+    padding: 2rem 1rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.advice-div > button {
+    background-color: #222;
+    border: 2px solid #222;
+    border-radius: 1rem;
+    padding: .4rem .6rem;
+    outline: none;
+    color: #f4f4f4;
+    font-weight: bold;
+}
+
+.advice-div > button:hover {
+    background-color: #333;
+}
+
+.advice-div > button:active {
+    background-color: #445;
+}
