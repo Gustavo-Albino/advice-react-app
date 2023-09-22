@@ -27,7 +27,7 @@ function Advice() {
     <div className='advice-div'>
       <h1>Advice</h1>
       <p>{advice}</p>
-      <button onClick={handleButton}>Get New Advice</button>
+      <button onClick={handleButton}>Get A New Advice</button>
     </div>
   );
 }

@@ -1,27 +1,52 @@
 .advice-div {
-    background-color: rgb(53, 80, 235);
-    width: 30%;
-    padding: 2rem 1rem;
-    color: #fff;
-    text-align: center;
-    border-radius: 1rem;
-    margin-top: 2rem;
+  background-color: #3550eb;
+  width: 30%;
+  padding: 2rem 1rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+  margin-top: 2rem;
 }
 
-.advice-div > button {
-    background-color: #222;
-    border: 2px solid #222;
-    border-radius: 1rem;
-    padding: .4rem .6rem;
-    outline: none;
-    color: #f4f4f4;
-    font-weight: bold;
+.advice-div>button {
+  background-color: #222;
+  border: 2px solid #222;
+  border-radius: 1rem;
+  padding: .4rem .6rem;
+  outline: none;
+  color: #f4f4f4;
+  font-weight: bold;
 }
 
-.advice-div > button:hover {
-    background-color: #333;
+.advice-div>button:hover {
+  background-color: #333;
 }
 
-.advice-div > button:active {
-    background-color: #445;
+.advice-div>button:active {
+  background-color: #445;
+}
+
+@media screen and (max-width: 767px) {
+  .advice-div {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+    border-radius: 0;
+  }
+
+  .advice-div > button {
+    padding: .5rem .7rem;
+    margin-top: 3rem;
+  }
+
+  .advice-div > p {
+    margin-top: 1rem;
+    width: 80%;
+  }
 }
